@@ -1,0 +1,4 @@
+## IDF Component Manager Manifest File
+dependencies:
+  waveshare/qmi8658: ^1.0.1
+  #waveshare/pcf85063a: ^1.1.1

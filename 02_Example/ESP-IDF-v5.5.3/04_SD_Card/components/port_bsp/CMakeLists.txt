@@ -1,0 +1,12 @@
+idf_component_register(
+    SRCS 
+    "i2c_bsp.cpp" 
+    "sdcard_bsp.cpp" 
+    PRIV_REQUIRES 
+    driver
+    pmicpower
+    REQUIRES
+    esp_driver_sdmmc
+    fatfs
+    INCLUDE_DIRS 
+    "./")
